@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
         btnDatePicker.setOnClickListener { clickDatePicker() }
         tvSelectedDate = findViewById(R.id.tvSelectedDate)
         tvSelectedDateInMinutes = findViewById(R.id.tvSelectedDateInMinutes)
+
+        //First Update
     }
 
     private fun clickDatePicker() {
